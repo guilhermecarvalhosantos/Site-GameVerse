@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameVerse - Loja de Jogos Online</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>GameVerse</h1>
+            <nav>
+                <ul>
+                    <li><a href="#destaques">Destaques</a></li>
+                    <li><a href="#comunidade">Comunidade</a></li>
+                    <li><a href="#loja">Loja</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="background-div">
+            <h1>Bem-vindo ao GameVerse</h1>
+            <p>Explore nossos jogos e ofertas exclusivas!</p>
+        </div>
+
+        <section id="destaques" class="section">
+            <div class="container">
+                <h2>Destaques da Semana</h2>
+                <div class="games">
+                    <div class="game">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1ROUlb0rFf9vVuyFP_UaCgMTHnwg-jerX1A&s"
+                            alt="Jogo Incrível 1">
+                        <h3>EXPEDITIONS</h3>
+                        <p>Um jogo emocionante que leva você a uma aventura épica!</p>
+                        <a href="#" class="btn">Comprar Agora</a>
+                    </div>
+                    <div class="game">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8ASvLmkA7Jszofnp3d9xAqrTwfaU13wmKQg&s"
+                            alt="Jogo Incrível 2">
+                        <h3>FORZA HORIZON 5</h3>
+                        <p>Explore mundos fantásticos e viva histórias inesquecíveis.</p>
+                        <a href="#" class="btn">Comprar Agora</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="comunidade" class="section">
+            <div class="container">
+                <h2>Comunidade</h2>
+                <p>Participe das discussões, descubra dicas e compartilhe suas experiências com outros jogadores.</p>
+                <div class="community-features">
+                    <div class="feature">
+                        <h3>Fóruns de Discussão</h3>
+                        <p>Troque ideias e estratégias com outros jogadores em nossos fóruns.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Eventos ao Vivo</h3>
+                        <p>Acompanhe eventos ao vivo e competições de eSports.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Guias e Tutoriais</h3>
+                        <p>Encontre guias detalhados e tutoriais para dominar seus jogos favoritos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="loja" class="section">
+            <div class="container">
+                <h2>Loja</h2>
+                <p>Compre e baixe os melhores jogos diretamente do nosso site. Confira nossas ofertas exclusivas!</p>
+                <div class="store-products">
+                    <div class="product">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzHWT6TLZ3EX20aIE-QALGxXf6ZwmORFiMlw&s"
+                            alt="Jogo Popular 1">
+                        <h3>DOTA UNDERLORDS</h3>
+                        <p>R$ 99,90</p>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                    <div class="product">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThcZYE85onePFrRbg1G5dxkTCQxDT-6U7i6A&s"
+                            alt="Jogo Popular 2">
+                        <h3>UBISOFT FARCY</h3>
+                        <p>R$ 149,90</p>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                    <div class="product">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN3JKfbYQSpBZ0DvA2MlxyTj7bv5KwG9WqfA&s"
+                            alt="Jogo Popular 3">
+                        <h3>BLACK MYTH WUKONG</h3>
+                        <p>R$ 89,90</p>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="form-container">
+
+            <br><br><br>
+
+            <h2>Entre em contato conosco para mais informações:</h2>
+
+            <br><br><br>
+
+            <form action="/submit" method="post">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="nomeId" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="reset" onclick="Enviar()" value="Enviar">Enviar</button>
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="contact-info">
+                <h3 id="contato">Contato</h3>
+                <p>Email: <a href="mailto:contato@gameverse.com">contato@gameverse.com</a></p>
+                <p>Telefone: <a href="tel:+551199999999">+55 11 99999-9999</a></p>
+                <p>Endereço: <a href="https://www.google.com/maps?q=Rua+Exemplo,+123,+Cidade,+Estado"
+                        target="_blank">Rua Exemplo, 123 - Cidade - Estado</a></p>
+            </div>
+
+            <div class="social-media">
+                <a href="https://facebook.com" target="_blank" class="social-icon">
+                    <i class="fab fa-facebook-f"></i> Facebook
+                </a>
+                <a href="https://twitter.com" target="_blank" class="social-icon">
+                    <i class="fab fa-twitter"></i> Twitter
+                </a>
+                <a href="https://instagram.com" target="_blank" class="social-icon">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+                <a href="https://youtube.com" target="_blank" class="social-icon">
+                    <i class="fab fa-youtube"></i> YouTube
+                </a>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="container">
+            <h4>&copy; 2024 GameVerse. Todos os direitos reservados.</h4>
+        </div>
+    </footer>
+</body>
+
+</html>
